@@ -37,6 +37,7 @@ public:
 
 
 
+
 void add(Elem* prev,int data)
 {
     while(prev->next!=nullptr)
@@ -59,6 +60,7 @@ void pass(Elem* v)
 int main() {
     Person Alice("Alice",33);
     Alice.print();
+    std::cout<<"!Tarachkov is cool nigga"<<std::endl;
     People Bob;
     Bob.Name="Bob";
     Bob.age = 10;
