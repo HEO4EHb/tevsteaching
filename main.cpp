@@ -35,6 +35,8 @@ public:
     }
 };
 
+
+
 void add(Elem* prev,int data)
 {
     while(prev->next!=nullptr)
